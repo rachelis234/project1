@@ -1,0 +1,120 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Search</h2>
+@using (Ajax.BeginForm("Search", "items", new AjaxOptions()
+{
+    UpdateTargetId = "items",
+    InsertionMode = InsertionMode.Replace,
+    HttpMethod = "Post"
+}))
+{
+    <label>קטגוריה</label>
+    <select id="categorySelect" name="categorySelect">
+        @foreach (var item in ViewBag.categories)
+        {
+            <option value="@item.Id">@item.name</option>
+        }
+    </select>
+    <label>תת קטגוריה</label>
+    <select id="subCategorySelect" name="subCategorySelect">
+        @foreach (var item in ViewBag.subCategory)
+        {
+            <option value="@item.Id">@item.name</option>
+        }
+    </select><br />
+    <label>אזור בארץ</label>
+    <select id="areasSelect" name="areasSelect">
+        @foreach (var item in ViewBag.areas)
+        {
+            <option value="@item.Id">@item.name</option>
+
+        }
+    </select>
+    <label>עיר</label>
+    <select id="citiesSelect" name="citiesSelect">
+        @foreach (var item in ViewBag.cities)
+        {
+            <option value="@item.Id">@item.name</option>
+        }
+    </select>
+    <br /><label>ממחיר</label>
+    <input type="number" name="fromPrice"id="fromPrice" value="0"/>
+    <label>עד מחיר</label>
+    <input type="number" name="toPrice" id="toPrice"value="0"/>
+    <input type="submit" value="חפש" name="search" id="search" />
+    <div style="position:absolute;top:8%;right:13%">
+        @Html.ActionLink("Login", "Login", "users") | 
+        @Html.ActionLink("Forgot the password","","")
+    </div>
+    <input type="search"placeholder="search" name="searchText" id="searchText"/>
+
+    @*<input type="button" name="addRemove" value="Add/Remove" onclick="~/users/Login" />
+    <input type="button" name="edit" value="Edit" onclick="" />*@
+    <div id="items"></div>
+}
+<script>
+    $('#areasSelect').change(function () {//בעת לחיצה
+        $.ajax({//AJAX הפעלת שליחת
+            type: "GET",// POST  או ב-GETהאם השליחה תתבצע ב-
+            url: "/Search/GetCities",//הכתובת של השרות אליה אנו מעוניינים לפנות
+            //   dataType: "json",//DATAמחזיר ל- סוג הנתונים שהשרות
+            data: { "areasSelect": $(this).val() },//ACTIONהערכים שיועברו ל-
+            success: function (data) {// מכיל את מה שחזר מהשרותDATAבעת הצלחה ה-
+                //
+                //parse json to object
+                //var cities = jQuery.parseJSON(data);
+                $("#citiesSelect").html('');
+                $.each(data, function (i, option) {
+                    $("#citiesSelect").append(
+                        $('<option ></option > ').val(option.Value).html(option.Text));
+                });
+            },
+            error: function (xhr, ajaxOptions, thrownError) {//בעת שגיאה-משהו לא הצליח בתהליך
+                alert("fail")
+            }
+        });
+    });
+    $('#categorySelect').change(function () {//בעת לחיצה
+        $.ajax({//AJAX הפעלת שליחת
+            type: "GET",// POST  או ב-GETהאם השליחה תתבצע ב-
+            url: "/Search/GetSubCategory",//הכתובת של השרות אליה אנו מעוניינים לפנות
+            //dataType: "json",//DATAמחזיר ל- סוג הנתונים שהשרות
+            data: { "categorySelect": $(this).val() },//ACTIONהערכים שיועברו ל-
+            success: function (data) {// מכיל את מה שחזר מהשרותDATAבעת הצלחה ה-
+                //
+                //parse json to object
+                //var cities = jQuery.parseJSON(data);
+                $("#subCategorySelect").html('');
+                $.each(data, function (i, option) {
+                    $("#subCategorySelect").append(
+                        $('<option ></option > ').val(option.Value).html(option.Text));
+                });
+            },
+            error: function (xhr, ajaxOptions, thrownError) {//בעת שגיאה-משהו לא הצליח בתהליך
+                alert("fail")
+            }
+        });
+    });
+
+</script>
+
+@{
+    //var areas = new List<SelectListItem>();
+    //foreach (var item in ViewBag.areas)
+    //{
+    //    areas.Add(new SelectListItem { Value = "item.Id", Text = "item.name " });
+    //}
+
+    //        new SelectListItem {Value = "1", Text = "Blue"},
+    //new SelectListItem {Value = "2", Text = "Red"},
+    //new SelectListItem {Value = "3", Text = "Green", Selected = true},
+    //new SelectListItem {Value = "4", Text = "Yellow", Selected = true},
+    //new SelectListItem {Value = "5", Text = "Black"}
+    //};
+
+}
+@*@Html.DropDownListFor(l=>l.id,areas);
+    @Html.ListBox("myListbox", areas, null, 6, true)*@

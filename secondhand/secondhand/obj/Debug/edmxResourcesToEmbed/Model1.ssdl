@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="rachelis_secondHand1Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="areas">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="_type" Type="int" Nullable="false" />
+    <Property Name="parentId" Type="int" />
+  </EntityType>
+  <EntityType Name="categories">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="items">
+    <Key>
+      <PropertyRef Name="CategoryId" />
+    </Key>
+    <Property Name="CategoryId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Id" Type="int" />
+    <Property Name="subCategoryId" Type="int" />
+    <Property Name="ShortDescription" Type="varchar" MaxLength="30" />
+    <Property Name="img" Type="varchar" MaxLength="30" />
+    <Property Name="price" Type="money" />
+    <Property Name="publicationDate" Type="date" />
+    <Property Name="areaId" Type="int" />
+    <Property Name="ueserId" Type="int" />
+  </EntityType>
+  <EntityType Name="subCategory">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CategoryId" Type="int" />
+    <Property Name="name" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="users">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Neme" Type="nvarchar" MaxLength="50" />
+    <Property Name="PW" Type="nvarchar" MaxLength="50" />
+    <Property Name="Tel" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mail" Type="nvarchar" MaxLength="50" />
+    <Property Name="isManeger" Type="bit" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__areas__parentId__24927208">
+    <End Role="areas" Type="Self.areas" Multiplicity="0..1" />
+    <End Role="areas1" Type="Self.areas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="areas">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="areas1">
+        <PropertyRef Name="parentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__items__areaId__2C3393D0">
+    <End Role="areas" Type="Self.areas" Multiplicity="0..1" />
+    <End Role="items" Type="Self.items" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="areas">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="items">
+        <PropertyRef Name="areaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__items__areaId__31EC6D26">
+    <End Role="areas" Type="Self.areas" Multiplicity="0..1" />
+    <End Role="items" Type="Self.items" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="areas">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="items">
+        <PropertyRef Name="areaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__items__subCatego__2D27B809">
+    <End Role="subCategory" Type="Self.subCategory" Multiplicity="0..1" />
+    <End Role="items" Type="Self.items" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="subCategory">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="items">
+        <PropertyRef Name="subCategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__items__subCatego__32E0915F">
+    <End Role="subCategory" Type="Self.subCategory" Multiplicity="0..1" />
+    <End Role="items" Type="Self.items" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="subCategory">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="items">
+        <PropertyRef Name="subCategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__subCatego__Categ__29572725">
+    <End Role="categories" Type="Self.categories" Multiplicity="0..1" />
+    <End Role="subCategory" Type="Self.subCategory" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="categories">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="subCategory">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_items_users">
+    <End Role="users" Type="Self.users" Multiplicity="0..1" />
+    <End Role="items" Type="Self.items" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="users">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="items">
+        <PropertyRef Name="ueserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="rachelis_secondHand1ModelStoreContainer">
+    <EntitySet Name="areas" EntityType="Self.areas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="categories" EntityType="Self.categories" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="items" EntityType="Self.items" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="subCategory" EntityType="Self.subCategory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="users" EntityType="Self.users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__areas__parentId__24927208" Association="Self.FK__areas__parentId__24927208">
+      <End Role="areas" EntitySet="areas" />
+      <End Role="areas1" EntitySet="areas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__items__areaId__2C3393D0" Association="Self.FK__items__areaId__2C3393D0">
+      <End Role="areas" EntitySet="areas" />
+      <End Role="items" EntitySet="items" />
+    </AssociationSet>
+    <AssociationSet Name="FK__items__areaId__31EC6D26" Association="Self.FK__items__areaId__31EC6D26">
+      <End Role="areas" EntitySet="areas" />
+      <End Role="items" EntitySet="items" />
+    </AssociationSet>
+    <AssociationSet Name="FK__items__subCatego__2D27B809" Association="Self.FK__items__subCatego__2D27B809">
+      <End Role="subCategory" EntitySet="subCategory" />
+      <End Role="items" EntitySet="items" />
+    </AssociationSet>
+    <AssociationSet Name="FK__items__subCatego__32E0915F" Association="Self.FK__items__subCatego__32E0915F">
+      <End Role="subCategory" EntitySet="subCategory" />
+      <End Role="items" EntitySet="items" />
+    </AssociationSet>
+    <AssociationSet Name="FK__subCatego__Categ__29572725" Association="Self.FK__subCatego__Categ__29572725">
+      <End Role="categories" EntitySet="categories" />
+      <End Role="subCategory" EntitySet="subCategory" />
+    </AssociationSet>
+    <AssociationSet Name="FK_items_users" Association="Self.FK_items_users">
+      <End Role="users" EntitySet="users" />
+      <End Role="items" EntitySet="items" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

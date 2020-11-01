@@ -1,0 +1,190 @@
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\ApplicationInsights.config
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\secondhand.dll.config
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\secondhand.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\secondhand.pdb
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\csc.exe
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\csc.exe.config
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\csc.rsp
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\csi.exe
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\csi.exe.config
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\csi.rsp
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\Microsoft.CodeAnalysis.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\Microsoft.CSharp.Core.targets
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\Microsoft.Managed.Core.targets
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\Microsoft.VisualBasic.Core.targets
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\System.AppContext.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\System.Collections.Immutable.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\System.Console.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\System.Diagnostics.StackTrace.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\System.IO.Compression.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\System.IO.FileSystem.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\System.IO.FileSystem.Primitives.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\System.IO.Pipes.AccessControl.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\System.IO.Pipes.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\System.Reflection.Metadata.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\System.Security.AccessControl.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\System.Security.Claims.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\System.Security.Cryptography.Encoding.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\System.Security.Cryptography.Primitives.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\System.Security.Principal.Windows.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\System.Text.Encoding.CodePages.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\System.ValueTuple.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\System.Xml.ReaderWriter.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\System.Xml.XmlDocument.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\System.Xml.XPath.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\System.Xml.XPath.XDocument.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\vbc.exe
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\vbc.exe.config
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\vbc.rsp
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\VBCSCompiler.exe
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\roslyn\VBCSCompiler.exe.config
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\Antlr3.Runtime.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\EntityFramework.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\EntityFramework.SqlServer.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\Microsoft.AI.Agent.Intercept.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\Microsoft.AI.DependencyCollector.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\Microsoft.AI.PerfCounterCollector.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\Microsoft.AI.ServerTelemetryChannel.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\Microsoft.AI.Web.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\Microsoft.AI.WindowsServer.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\Microsoft.ApplicationInsights.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\Microsoft.Web.Infrastructure.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\Newtonsoft.Json.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\System.Diagnostics.DiagnosticSource.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\System.Web.Helpers.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\System.Web.Mvc.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\System.Web.Optimization.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\System.Web.Razor.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\System.Web.WebPages.Deployment.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\System.Web.WebPages.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\System.Web.WebPages.Razor.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\WebGrease.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\EntityFramework.xml
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\EntityFramework.SqlServer.xml
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\System.Web.Helpers.xml
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\System.Web.Mvc.xml
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\System.Web.Optimization.xml
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\System.Web.Razor.xml
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\System.Web.WebPages.xml
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\System.Web.WebPages.Deployment.xml
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\System.Web.WebPages.Razor.xml
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\Newtonsoft.Json.xml
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\Antlr3.Runtime.pdb
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\System.Diagnostics.DiagnosticSource.xml
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\Microsoft.AI.DependencyCollector.xml
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\Microsoft.AI.WindowsServer.xml
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\Microsoft.AI.Web.xml
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\obj\Debug\secondhand.dll
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\obj\Debug\secondhand.pdb
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\obj\Debug\secondhand.csprojAssemblyReference.cache
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\obj\Debug\secondhand.csproj.CoreCompileInputs.cache
+Y:\group 2 תשעט\ליס רחלי\mvc\secondhand\secondhand\obj\Debug\secondhand.csproj.CopyComplete
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\ApplicationInsights.config
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\secondhand.dll.config
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\secondhand.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\secondhand.pdb
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\csc.exe
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\csc.exe.config
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\csc.rsp
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\csi.exe
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\csi.exe.config
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\csi.rsp
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\System.AppContext.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\System.Console.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\System.IO.Compression.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\System.IO.Pipes.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\System.Security.Claims.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\System.ValueTuple.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\System.Xml.XPath.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\vbc.exe
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\vbc.exe.config
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\vbc.rsp
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\Antlr3.Runtime.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\EntityFramework.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\EntityFramework.SqlServer.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\Microsoft.AI.Web.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\Microsoft.ApplicationInsights.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\Newtonsoft.Json.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\System.Web.Helpers.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\System.Web.Mvc.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\System.Web.Optimization.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\System.Web.Razor.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\System.Web.WebPages.Deployment.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\System.Web.WebPages.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\System.Web.WebPages.Razor.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\WebGrease.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\EntityFramework.xml
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\EntityFramework.SqlServer.xml
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\System.Web.Helpers.xml
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\System.Web.Mvc.xml
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\System.Web.Optimization.xml
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\System.Web.Razor.xml
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\System.Web.WebPages.xml
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\System.Web.WebPages.Deployment.xml
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\System.Web.WebPages.Razor.xml
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\Newtonsoft.Json.xml
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\Antlr3.Runtime.pdb
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\Microsoft.AI.Web.xml
+C:\Users\User\Documents\רחלי\secondhand\secondhand\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Documents\רחלי\secondhand\secondhand\obj\Debug\secondhand.csprojAssemblyReference.cache
+C:\Users\User\Documents\רחלי\secondhand\secondhand\obj\Debug\secondhand.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\רחלי\secondhand\secondhand\obj\Debug\secondhand.csproj.CopyComplete
+C:\Users\User\Documents\רחלי\secondhand\secondhand\obj\Debug\secondhand.dll
+C:\Users\User\Documents\רחלי\secondhand\secondhand\obj\Debug\secondhand.pdb

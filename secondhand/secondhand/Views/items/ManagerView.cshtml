@@ -1,0 +1,15 @@
+﻿@model secondhand.users
+@*<form>
+        <input type="button" value="Categories" onclick="window.location='categories/Index'"/>
+        <input type="button" value="Areas" onclick="window.location='areas/Index'" />
+        <input type="button" value="Categories" onclick="window.location='categories/Index'" />
+        <input type="button" value="SubCategories" onclick="window.location='subCategories/Index'" />
+    </form>*@
+<h1>Hello manager @Model.Neme</h1>
+<form>
+    <div @*style="position:absolute;top:25%;left:20%;"*@>
+        @Html.ActionLink("Categories", "Index", "categories") |
+        @Html.ActionLink("Areas", "Index", "areas") |
+        @Html.ActionLink("SubCategories", "Index", "subCategories")
+    </div>
+</form>

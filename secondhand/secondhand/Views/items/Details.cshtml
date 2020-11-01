@@ -1,0 +1,82 @@
+﻿@model secondhand.items
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>items</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ShortDescription)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ShortDescription)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.img)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.img)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.publicationDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.publicationDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ueserId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ueserId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.areas.name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.areas.name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.subCategory.name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.subCategory.name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.CategoryId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

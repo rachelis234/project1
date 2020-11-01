@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="rachelis_secondHand1Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="areas">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="C_type" Type="Int32" Nullable="false" />
+    <Property Name="parentId" Type="Int32" />
+    <NavigationProperty Name="areas1" Relationship="Self.FK__areas__parentId__24927208" FromRole="areas" ToRole="areas1" />
+    <NavigationProperty Name="areas2" Relationship="Self.FK__areas__parentId__24927208" FromRole="areas1" ToRole="areas" />
+    <NavigationProperty Name="items" Relationship="Self.FK__items__areaId__2C3393D0" FromRole="areas" ToRole="items" />
+    <NavigationProperty Name="items1" Relationship="Self.FK__items__areaId__31EC6D26" FromRole="areas" ToRole="items" />
+  </EntityType>
+  <EntityType Name="categories">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="subCategory" Relationship="Self.FK__subCatego__Categ__29572725" FromRole="categories" ToRole="subCategory" />
+  </EntityType>
+  <EntityType Name="items">
+    <Key>
+      <PropertyRef Name="CategoryId" />
+    </Key>
+    <Property Name="CategoryId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Id" Type="Int32" />
+    <Property Name="subCategoryId" Type="Int32" />
+    <Property Name="ShortDescription" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="img" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="price" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="publicationDate" Type="DateTime" Precision="0" />
+    <Property Name="areaId" Type="Int32" />
+    <Property Name="ueserId" Type="Int32" />
+    <NavigationProperty Name="areas" Relationship="Self.FK__items__areaId__2C3393D0" FromRole="items" ToRole="areas" />
+    <NavigationProperty Name="areas1" Relationship="Self.FK__items__areaId__31EC6D26" FromRole="items" ToRole="areas" />
+    <NavigationProperty Name="subCategory" Relationship="Self.FK__items__subCatego__2D27B809" FromRole="items" ToRole="subCategory" />
+    <NavigationProperty Name="subCategory1" Relationship="Self.FK__items__subCatego__32E0915F" FromRole="items" ToRole="subCategory" />
+    <NavigationProperty Name="users" Relationship="Self.FK_items_users" FromRole="items" ToRole="users" />
+  </EntityType>
+  <EntityType Name="subCategory">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="name" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="categories" Relationship="Self.FK__subCatego__Categ__29572725" FromRole="subCategory" ToRole="categories" />
+    <NavigationProperty Name="items" Relationship="Self.FK__items__subCatego__2D27B809" FromRole="subCategory" ToRole="items" />
+    <NavigationProperty Name="items1" Relationship="Self.FK__items__subCatego__32E0915F" FromRole="subCategory" ToRole="items" />
+  </EntityType>
+  <EntityType Name="users">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Neme" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PW" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Tel" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Mail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="isManeger" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="items" Relationship="Self.FK_items_users" FromRole="users" ToRole="items" />
+  </EntityType>
+  <Association Name="FK__areas__parentId__24927208">
+    <End Role="areas" Type="Self.areas" Multiplicity="0..1" />
+    <End Role="areas1" Type="Self.areas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="areas">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="areas1">
+        <PropertyRef Name="parentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__items__areaId__2C3393D0">
+    <End Role="areas" Type="Self.areas" Multiplicity="0..1" />
+    <End Role="items" Type="Self.items" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="areas">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="items">
+        <PropertyRef Name="areaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__items__areaId__31EC6D26">
+    <End Role="areas" Type="Self.areas" Multiplicity="0..1" />
+    <End Role="items" Type="Self.items" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="areas">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="items">
+        <PropertyRef Name="areaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__subCatego__Categ__29572725">
+    <End Role="categories" Type="Self.categories" Multiplicity="0..1" />
+    <End Role="subCategory" Type="Self.subCategory" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="categories">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="subCategory">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__items__subCatego__2D27B809">
+    <End Role="subCategory" Type="Self.subCategory" Multiplicity="0..1" />
+    <End Role="items" Type="Self.items" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="subCategory">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="items">
+        <PropertyRef Name="subCategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__items__subCatego__32E0915F">
+    <End Role="subCategory" Type="Self.subCategory" Multiplicity="0..1" />
+    <End Role="items" Type="Self.items" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="subCategory">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="items">
+        <PropertyRef Name="subCategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_items_users">
+    <End Role="users" Type="Self.users" Multiplicity="0..1" />
+    <End Role="items" Type="Self.items" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="users">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="items">
+        <PropertyRef Name="ueserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="rachelis_secondHand1Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="areas" EntityType="Self.areas" />
+    <EntitySet Name="categories" EntityType="Self.categories" />
+    <EntitySet Name="items" EntityType="Self.items" />
+    <EntitySet Name="subCategory" EntityType="Self.subCategory" />
+    <EntitySet Name="users" EntityType="Self.users" />
+    <AssociationSet Name="FK__areas__parentId__24927208" Association="Self.FK__areas__parentId__24927208">
+      <End Role="areas" EntitySet="areas" />
+      <End Role="areas1" EntitySet="areas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__items__areaId__2C3393D0" Association="Self.FK__items__areaId__2C3393D0">
+      <End Role="areas" EntitySet="areas" />
+      <End Role="items" EntitySet="items" />
+    </AssociationSet>
+    <AssociationSet Name="FK__items__areaId__31EC6D26" Association="Self.FK__items__areaId__31EC6D26">
+      <End Role="areas" EntitySet="areas" />
+      <End Role="items" EntitySet="items" />
+    </AssociationSet>
+    <AssociationSet Name="FK__subCatego__Categ__29572725" Association="Self.FK__subCatego__Categ__29572725">
+      <End Role="categories" EntitySet="categories" />
+      <End Role="subCategory" EntitySet="subCategory" />
+    </AssociationSet>
+    <AssociationSet Name="FK__items__subCatego__2D27B809" Association="Self.FK__items__subCatego__2D27B809">
+      <End Role="subCategory" EntitySet="subCategory" />
+      <End Role="items" EntitySet="items" />
+    </AssociationSet>
+    <AssociationSet Name="FK__items__subCatego__32E0915F" Association="Self.FK__items__subCatego__32E0915F">
+      <End Role="subCategory" EntitySet="subCategory" />
+      <End Role="items" EntitySet="items" />
+    </AssociationSet>
+    <AssociationSet Name="FK_items_users" Association="Self.FK_items_users">
+      <End Role="users" EntitySet="users" />
+      <End Role="items" EntitySet="items" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

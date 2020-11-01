@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cbeb3dfe64fc44b1a28bbeb3227d1d40" Name="Diagram1">
+        <EntityTypeShape EntityType="rachelis_secondHand1Model.areas" Width="1.5" PointX="3" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="rachelis_secondHand1Model.categories" Width="1.5" PointX="0.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="rachelis_secondHand1Model.items" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="rachelis_secondHand1Model.subCategory" Width="1.5" PointX="3" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="rachelis_secondHand1Model.users" Width="1.5" PointX="3" PointY="9.5" IsExpanded="true" />
+        <AssociationConnector Association="rachelis_secondHand1Model.FK__areas__parentId__24927208" ManuallyRouted="false" />
+        <AssociationConnector Association="rachelis_secondHand1Model.FK__items__areaId__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="rachelis_secondHand1Model.FK__items__areaId__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="rachelis_secondHand1Model.FK__subCatego__Categ__29572725" ManuallyRouted="false" />
+        <AssociationConnector Association="rachelis_secondHand1Model.FK__items__subCatego__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="rachelis_secondHand1Model.FK__items__subCatego__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="rachelis_secondHand1Model.FK_items_users" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
